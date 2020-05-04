@@ -6,8 +6,8 @@ package com.gx.dataStructure;
  * @Description: 单向链表数据结构
  */
 public class SinglyLinkedList {
-    int data;
-    SinglyLinkedList next = null;
+    public int data;
+    public SinglyLinkedList next = null;
 
     public SinglyLinkedList() {
     }
