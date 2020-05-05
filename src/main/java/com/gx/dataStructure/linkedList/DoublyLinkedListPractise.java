@@ -1,4 +1,4 @@
-package com.gx.dataStructure;
+package com.gx.dataStructure.linkedList;
 
 /**
  * @Author: gx

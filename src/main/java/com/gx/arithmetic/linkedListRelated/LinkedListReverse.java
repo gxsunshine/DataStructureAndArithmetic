@@ -1,6 +1,6 @@
 package com.gx.arithmetic.linkedListRelated;
 
-import com.gx.dataStructure.SinglyLinkedList;
+import com.gx.dataStructure.linkedList.SinglyLinkedList;
 import com.gx.dataStructure.util.SinglyLinkedUtil;
 
 /**

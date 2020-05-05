@@ -1,6 +1,6 @@
 package com.gx.dataStructure.util;
 
-import com.gx.dataStructure.SinglyLinkedList;
+import com.gx.dataStructure.linkedList.SinglyLinkedList;
 
 /**
  * 单向链表工具类

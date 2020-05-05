@@ -1,4 +1,4 @@
-package com.gx.dataStructure;
+package com.gx.dataStructure.linkedList;
 
 class CycleLinkedUtil{
     private SinglyLinkedList head = null;
