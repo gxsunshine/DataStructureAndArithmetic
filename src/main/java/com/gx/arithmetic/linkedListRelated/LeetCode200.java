@@ -79,15 +79,19 @@ public class LeetCode200 {
             // 给访问了的位置标志为 ’2' ,避免重复访问
             grid[location.row][location.col] = '2';
             if ((location.col + 1) < grid[0].length && grid[location.row][location.col + 1] == '1') {
+                grid[location.row][location.col + 1] = '2';
                 queue.add(new Location(location.row, location.col + 1));
             }
             if ((location.row + 1) < grid.length && grid[location.row + 1][location.col] == '1') {
+                grid[location.row + 1][location.col] = '2';
                 queue.add(new Location(location.row + 1, location.col));
             }
             if ((location.col - 1) > -1 && grid[location.row][location.col - 1] == '1') {
+                grid[location.row][location.col - 1] = '2';
                 queue.add(new Location(location.row, location.col - 1));
             }
             if ((location.row - 1) > -1 && grid[location.row - 1 ][location.col] == '1') {
+                grid[location.row - 1][location.col] = '2';
                 queue.add(new Location(location.row - 1, location.col));
             }
         }
